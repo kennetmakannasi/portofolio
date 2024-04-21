@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Portofolio</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="halaman">
+
+            <!--isi-->
+            <div class="isi">
+            <div class="tekskontak">
+                <h1>Kontak</h1>
+                <div class="gariskontak"></div>
+            </div>
+
+            <div class="sosmedclick">
+                <div id="icons2gh" onclick="close1()"><a id="st1" onclick="gh()">GitHub Saya</a></div>
+                <div>
+                    <div id="icons2ig" onclick="close2()"><a id="st2" onclick="ig()">Instagram Saya</a></div>
+                </div><div>
+                    <div id="icons2x" onclick="close3()"><a id="st3" onclick="x()">Twitter Saya</a></div>
+                </div>
+            </div>
+
+
+            <div class="sosmed">
+                <div>
+                <button id="icons" onclick="open1()">
+                <img id="gh" src="aset/github.png" alt="">
+                </button>
+                </div><div>
+                    <button id="icons" onclick="open2()">
+                        <img id="ig" src="aset/ig.png" alt="">
+                        </button>
+                </div><div>
+                    <button id="icons" onclick="open3()">
+                        <img id="x" src="aset/x.png" alt="">
+                        </button>
+                </div>
+            </div>
+
+                <form action="" id="formkontak">
+                    <div>
+                    <input type="text" placeholder="nama" id="nama">
+                    </div>
+                    <div>
+                    <input type="text" placeholder="Email" id="email">
+                    </div>
+                    <div>
+                    <input type="text" placeholder="Pesan" id="pesan">
+                    </div>
+                    <button type="submit">Kirim</button>
+                </form>
+    </div>
+
+     <!--navbar-->
+     <div class="navbar">
+        <div class="buttonnavbar">
+            <div class="teksnavbar">
+            <button onclick="navbar1()">Home</button>
+            <button onclick="navbar2()">Profil</button>
+            <button class="aktif" onclick="navbar3()">Kontak</button>
+            </div>
+        </div>
+        </div>
+
+    </div>
+</body>
+</html>
